@@ -4,5 +4,7 @@ const nextConfig = {
   experimental: {
     forceSwcTransforms: true,
   },
+
 };
+
 
