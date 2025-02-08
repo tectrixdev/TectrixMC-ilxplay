@@ -10,10 +10,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  purge: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-  ],
+
 };
 
 export default nextConfig;
