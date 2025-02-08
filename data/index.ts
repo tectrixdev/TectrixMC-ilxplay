@@ -12,7 +12,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end ",
-    img: "/b1.jpg",
+    img: "b1.jpg",
     spareImg: "",
   },
   {
@@ -41,8 +41,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "grid.svg",
+    spareImg: "b4.svg",
   },
 
   {
@@ -107,28 +107,28 @@ export const features = [
     title: "Community driven economy system",
     desc: "A unique, self-made economy system that makes Tectrix deeply immersive",
     className: "md:col-span-2",
-    thumbnail: "/exp1.png",
+    thumbnail: "exp1.png",
   },
   {
     id: 2,
     title: "In-Game Interactions system",
     desc: "System that allows players to interact with eachother in a variety of ways from making small casual groups to forming giant business corporations",
     className: "md:col-span-2",
-    thumbnail: "/exp2.png",
+    thumbnail: "exp2.png",
   },
   {
     id: 3,
     title: "In-Game voice chat",
     desc: "Communicate, interact, cooperate and have fun with everyone!",
     className: "md:col-span-2",
-    thumbnail: "/exp3.png",
+    thumbnail: "exp3.png",
   },
   {
     id: 4,
     title: "World Progression system",
     desc: "Complete achievements and cooperate with other players to progress and compete in a race against time!",
     className: "md:col-span-2",
-    thumbnail: "/exp4.png",
+    thumbnail: "exp4.png",
   },
 ];
 
