@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
-import Players from "@/components/Players";
+{/*import Players from "@/components/Players";*/}
 import Approach from "@/components/Approach";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Features from "@/components/Features";
