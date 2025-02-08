@@ -5,7 +5,7 @@ const nextConfig = {
     forceSwcTransforms: true,
   },
   output: 'export',
-  basePath: '/TectrixWebsite',
+
   images: {
     unoptimized: true,
   },
