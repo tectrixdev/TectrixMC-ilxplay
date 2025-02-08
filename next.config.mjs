@@ -4,8 +4,8 @@ const nextConfig = {
   experimental: {
     forceSwcTransforms: true,
   },
-  output: 'export',  // Enables static exports
-  basePath: '/your-repo-name', // Replace with your repository name
+  output: 'export',
+  basePath: '/TectrixWebsite',
   images: {
     unoptimized: true,
   },
