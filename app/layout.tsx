@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "TectrixMC",
-  description: "An Uique Minecraft Server",
+  description: "An Unique Minecraft Server",
 };
 
 export default function RootLayout({
