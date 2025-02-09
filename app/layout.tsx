@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "TectrixMC",
-  description: "An Unique Minecraft Server",
+  description: "An unique Minecraft server",
+  keywords: ["Tectrix", "TectrixMC", "minecraft server", "minecraft", "server"],
 };
 
 export default function RootLayout({
@@ -17,9 +18,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html
+      lang="en"
+      suppressHydrationWarning
+    >
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link
+          rel="icon"
+          href="/jsm-logo.png"
+          sizes="any"
+        />
       </head>
       <body className={inter.className}>
         <ThemeProvider
