@@ -29,8 +29,48 @@ export default function RootLayout({
           sizes="any"
         />
         <meta
+          property="og:url"
+          content="https://tectrixdev.github.io/TectrixWebsite/"
+        />
+        <meta
+          property="og:type"
+          content="website"
+        />
+        <meta
+          property="og:title"
+          content="TectrixMC"
+        />
+        <meta
+          property="og:description"
+          content="An unique Minecraft server"
+        />
+        <meta
           property="og:image"
-          content="opengraph-image.png"
+          content="https://opengraph.b-cdn.net/production/images/cb857973-a9ad-4a60-b760-01982b1c3eb1.png?token=dgHcYV8kki-ku5vioNPJh0ziV3cx5CN1ckWW58zqsrg&height=600&width=1200&expires=33275128201"
+        />
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
+        <meta
+          property="twitter:domain"
+          content="tectrixdev.github.io"
+        />
+        <meta
+          property="twitter:url"
+          content="https://tectrixdev.github.io/TectrixWebsite/"
+        />
+        <meta
+          name="twitter:title"
+          content="TectrixMC"
+        />
+        <meta
+          name="twitter:description"
+          content="An unique Minecraft server"
+        />
+        <meta
+          name="twitter:image"
+          content="https://opengraph.b-cdn.net/production/images/cb857973-a9ad-4a60-b760-01982b1c3eb1.png?token=dgHcYV8kki-ku5vioNPJh0ziV3cx5CN1ckWW58zqsrg&height=600&width=1200&expires=33275128201"
         />
       </head>
       <body className={inter.className}>
