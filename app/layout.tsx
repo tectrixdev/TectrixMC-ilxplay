@@ -28,6 +28,10 @@ export default function RootLayout({
           href="/jsm-logo.png"
           sizes="any"
         />
+        <meta
+          property="og:image"
+          content="opengraph-image.png"
+        />
       </head>
       <body className={inter.className}>
         <ThemeProvider
