@@ -7,7 +7,10 @@ import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 const Players = () => {
   return (
-    <section id="players" className="py-20">
+    <section
+      id="players"
+      className="py-20"
+    >
       <h1 className="heading">
         Recommendations
         <span className="text-purple"> from our players</span>
@@ -24,8 +27,6 @@ const Players = () => {
             speed="slow"
           />
         </div>
-
-
       </div>
     </section>
   );

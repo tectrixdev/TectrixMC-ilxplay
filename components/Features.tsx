@@ -5,7 +5,10 @@ import { Button } from "./ui/MovingBorders";
 
 const Features = () => {
   return (
-    <div className="py-20 w-full" id="features">
+    <div
+      className="py-20 w-full"
+      id="features"
+    >
       <h1 className="heading">
         Our <span className="text-purple">features</span>
       </h1>
