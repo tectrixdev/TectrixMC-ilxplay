@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-import { Link } from 'react-router'
+import { Link } from "react-router";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
-
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
@@ -54,8 +53,6 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-
-
   const [copied, setCopied] = useState(false);
 
   const defaultOptions = {
@@ -67,8 +64,7 @@ export const BentoGridItem = ({
     },
   };
   const discordInviteLink = "https://discord.com/invite/XkWmXWTcwD";
-  const wikiInviteLink = "https://ilxplay.github.io/TectrixWiki/"
-
+  const wikiInviteLink = "https://ilxplay.github.io/TectrixWiki/";
 
   return (
     <div
@@ -77,14 +73,12 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-
         //rom here https://cssgradient.io/
         background: "rgb(4,7,29)",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
@@ -96,8 +90,9 @@ export const BentoGridItem = ({
           )}
         </div>
         <div
-          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
-            } `}
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full opacity-80"
+          } `}
         >
           {spareImg && (
             <img
@@ -124,6 +119,7 @@ export const BentoGridItem = ({
           </div>
           <div
             className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+            style={{ filter: "drop-shadow(2px 4px 6px black)" }} // tailwind wasn't having it
           >
             {title}
           </div>
@@ -132,7 +128,12 @@ export const BentoGridItem = ({
 
           {id === 3 && (
             <div className="flex justify-center translate-y-12">
-              <a href={wikiInviteLink} target="_blank" rel="noopener noreferrer" className="">
+              <a
+                href={wikiInviteLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className=""
+              >
                 <MagicButton
                   title="Check Out!"
                   icon={<FaInfoCircle />}
@@ -144,13 +145,22 @@ export const BentoGridItem = ({
           {id === 6 && (
             <div className="mt-5 relative">
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
               >
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie
+                  options={defaultOptions}
+                  height={200}
+                  width={400}
+                />
               </div>
 
-              <a href={discordInviteLink} target="_blank" rel="noopener noreferrer">
+              <a
+                href={discordInviteLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <MagicButton
                   title="Join"
                   icon={<FaDiscord />}
