@@ -10,8 +10,8 @@ export default (phase) => {
       forceSwcTransforms: true,
     },
     output: "export",
-    basePath: isDev ? undefined : "/TectrixWebsite",
-    assetPrefix: isDev ? undefined : "/TectrixWebsite",
+    basePath: isDev ? undefined : "/TectrixMC",
+    assetPrefix: isDev ? undefined : "/TectrixMC",
     images: {
       unoptimized: true,
     },
