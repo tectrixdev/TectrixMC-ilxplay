@@ -51,8 +51,9 @@ export const gridItems = [
     description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-center md:justify-start lg:justify-center decoration-dashed",
-    img: "b5.png"
+    titleClassName:
+      "justify-center md:justify-start lg:justify-center decoration-dashed",
+    img: "b5.png",
   },
   {
     id: 6,
@@ -66,40 +67,33 @@ export const gridItems = [
   },
 ];
 
-
 export const testimonials = [
   {
-    quote:
-      "quote",
+    quote: "quote",
     name: "player",
     title: "...",
   },
   {
-    quote:
-      "",
+    quote: "",
     name: "",
     title: "...",
   },
   {
-    quote:
-      "",
+    quote: "",
     name: "",
     title: "...",
   },
   {
-    quote:
-      "",
+    quote: "",
     name: "",
     title: "...",
   },
   {
-    quote:
-      "",
+    quote: "",
     name: "",
     title: "...",
   },
 ];
-
 
 export const features = [
   {
