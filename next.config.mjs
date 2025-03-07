@@ -9,12 +9,6 @@ export default (phase) => {
     experimental: {
       forceSwcTransforms: true,
     },
-    output: "export",
-    basePath: isDev ? undefined : "/TectrixMC",
-    assetPrefix: isDev ? undefined : "/TectrixMC",
-    images: {
-      unoptimized: true,
-    },
   };
   return nextConfig;
 };
