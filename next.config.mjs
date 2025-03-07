@@ -9,6 +9,10 @@ export default (phase) => {
     experimental: {
       forceSwcTransforms: true,
     },
+    output: "export",
+    images: {
+      unoptimized: true,
+    },
   };
   return nextConfig;
 };
