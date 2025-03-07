@@ -38,7 +38,7 @@ export default function RootLayout({
         />
         <meta
           property="og:title"
-          content="TectrixMC"
+          content="TectrixMC Website"
         />
         <meta
           property="og:description"
