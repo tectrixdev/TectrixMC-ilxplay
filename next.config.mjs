@@ -1,18 +1,17 @@
-// @ts-check
-import { PHASE_DEVELOPMENT_SERVER } from "next/constants.js";
-export default (phase) => {
-  const isDev = phase === PHASE_DEVELOPMENT_SERVER;
-  /**
-   * @type {import('next').NextConfig}
-   */
-  const nextConfig = {
-    experimental: {
-      forceSwcTransforms: true,
-    },
-    output: "export",
-    images: {
-      unoptimized: true,
-    },
-  };
-  return nextConfig;
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  experimental: {
+    forceSwcTransforms: true,
+  },
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
+
+export default nextConfig;

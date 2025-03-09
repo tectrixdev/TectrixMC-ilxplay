@@ -56,7 +56,18 @@ export const BackgroundGradientAnimation = ({
     document.body.style.setProperty("--pointer-color", pointerColor);
     document.body.style.setProperty("--size", size);
     document.body.style.setProperty("--blending-value", blendingValue);
-  }, []);
+  }, [
+    blendingValue,
+    fifthColor,
+    firstColor,
+    fourthColor,
+    pointerColor,
+    secondColor,
+    size,
+    thirdColor,
+    gradientBackgroundEnd,
+    gradientBackgroundStart,
+  ]);
 
   useEffect(() => {
     function move() {
@@ -71,7 +82,7 @@ export const BackgroundGradientAnimation = ({
     }
 
     move();
-  }, [tgX, tgY]);
+  }, [tgX, tgY, curX, curY]);
 
   const handleMouseMove = (event: React.MouseEvent<HTMLDivElement>) => {
     if (interactiveRef.current) {
@@ -107,7 +118,10 @@ export const BackgroundGradientAnimation = ({
               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
               result="goo"
             />
-            <feBlend in="SourceGraphic" in2="goo" />
+            <feBlend
+              in="SourceGraphic"
+              in2="goo"
+            />
           </filter>
         </defs>
       </svg>
