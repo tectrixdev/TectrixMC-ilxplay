@@ -31,11 +31,6 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        <link
-          rel="icon"
-          href="/jsm-logo.png"
-          sizes="any"
-        />
         <meta
           property="og:url"
           content="https://tectrixdev.github.io/TectrixWebsite/"
