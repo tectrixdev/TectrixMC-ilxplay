@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
@@ -9,7 +9,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "TectrixMC",
   description: "An unique Minecraft server",
-  keywords: ["Tectrix", "TectrixMC", "minecraft server", "minecraft", "server", "SMP", "SMP minecraft"],
+  keywords: [
+    "Tectrix",
+    "TectrixMC",
+    "minecraft server",
+    "minecraft",
+    "server",
+    "SMP",
+    "SMP minecraft",
+  ],
 };
 
 export default function RootLayout({
@@ -82,6 +90,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
