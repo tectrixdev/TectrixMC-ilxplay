@@ -17,7 +17,7 @@ const Copy = () => {
       className="text-center mx-auto my-5"
     >
       <InputGroup
-        className="text-center bg-black rounded-lg border-white border-2 p-2"
+        className="text-center bg-black rounded-lg border p-2"
         width="full"
         endElement={<ClipboardIconButton me="-2" />}
       >

@@ -17,7 +17,6 @@ const ClipboardIcon = React.forwardRef<
       copied={<LuCheck />}
       {...props}
       ref={ref}
-      className="stroke-white!"
     >
       <LuClipboard />
     </ChakraClipboard.Indicator>
