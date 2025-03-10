@@ -1,6 +1,5 @@
 import { FaDiscord } from "react-icons/fa";
 import MagicButton from "./MagicButton";
-import { Snippet } from "@heroui/snippet";
 
 const Footer = () => {
   const discordInviteLink = "https://discord.com/invite/XkWmXWTcwD";
@@ -38,9 +37,6 @@ const Footer = () => {
           />
         </a>
       </div>
-      {/*<Snippet className="m-7" symbol="IP" variant="bordered">
-        play.tectrix.dev
-      </Snippet>*/}
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2025 The TectrixMC team. All rights reserved
