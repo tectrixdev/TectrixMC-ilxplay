@@ -9,6 +9,27 @@ import {
 import { InputGroup } from "@/components/ui/input-group";
 import { ChakraProvider } from "@chakra-ui/react";
 
+const Demo = () => {
+  return (
+    <ClipboardRoot
+      maxW="300px"
+      value="play.tectrix.dev"
+      className="text-center mx-auto my-5"
+    >
+      <InputGroup
+        className="text-center bg-black rounded-lg border-[#71717a] border-2 p-2"
+        width="full"
+        endElement={<ClipboardIconButton me="-2" />}
+      >
+        <div className="pl-4 flex flex-row items-center justify-center">
+          <p>IP:</p>
+          <ClipboardInput />
+        </div>
+      </InputGroup>
+    </ClipboardRoot>
+  );
+};
+
 const Footer = () => {
   const discordInviteLink = "https://discord.com/invite/XkWmXWTcwD";
   return (
@@ -44,21 +65,8 @@ const Footer = () => {
             position="right"
           />
         </a>
-        <ChakraProvider>
-          <ClipboardRoot
-            maxW="300px"
-            value="play.tectrix.dev"
-          >
-            <ClipboardLabel>IP:</ClipboardLabel>
-            <InputGroup
-              width="full"
-              endElement={<ClipboardIconButton me="-2" />}
-            >
-              <ClipboardInput />
-            </InputGroup>
-          </ClipboardRoot>
-        </ChakraProvider>
       </div>
+      <Demo />
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2025 The TectrixMC team. All rights reserved
