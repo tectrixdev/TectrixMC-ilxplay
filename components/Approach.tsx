@@ -25,7 +25,7 @@ const Approach = () => {
         <Card
           title="Development and Features"
           icon={<AceternityIcon order="Principle 2" />}
-          des="Tectrix developers are passionate and committed to steady development and frequent updates, ensuring the best possible player experience and fresh content. Our custom-made plugins are unique, player-friendly with a ton of features. We work closely with every player to create the ultimate Minecraft experience"
+          des="TectrixMC developers are passionate and committed to steady development and frequent updates, ensuring the best possible player experience and fresh content. Our custom-made plugins are unique, player-friendly with a ton of features. We work closely with every player to create the ultimate Minecraft experience!"
         >
           <CanvasRevealEffect
             animationSpeed={3}

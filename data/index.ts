@@ -99,14 +99,14 @@ export const features = [
   {
     id: 1,
     title: "Community driven economy system",
-    desc: "A unique, self-made economy system that makes Tectrix deeply immersive",
+    desc: "An unique, self-made economy system that makes TectrixMC deeply immersive.",
     className: "md:col-span-2",
     thumbnail: "exp1.png",
   },
   {
     id: 2,
     title: "In-Game Interactions system",
-    desc: "System that allows players to interact with eachother in a variety of ways from making small casual groups to forming giant business corporations",
+    desc: "System that allows players to interact with eachother in a variety of ways from making small casual groups to forming giant business corporations.",
     className: "md:col-span-2",
     thumbnail: "exp2.png",
   },
