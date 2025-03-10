@@ -14,7 +14,7 @@ const Copy = () => {
     <ClipboardRoot
       maxW="300px"
       value="play.tectrix.dev"
-      className="text-center mx-auto my-5"
+      className="text-center mx-auto mt-5"
     >
       <InputGroup
         className="text-center bg-black rounded-lg border p-2"
@@ -45,7 +45,6 @@ const Footer = () => {
           className="w-full h-full opacity-50 "
         />
       </div>
-
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           Ready to try <span className="text-purple">TectrixMC</span>?
@@ -53,7 +52,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center text-xl">
           Join right now to participate in peak minecraft experience!
         </p>
-
+        <Copy />
         <a
           href={discordInviteLink}
           target="_blank"
@@ -66,7 +65,6 @@ const Footer = () => {
           />
         </a>
       </div>
-      <Copy />
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2025 The TectrixMC team. All rights reserved
