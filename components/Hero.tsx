@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -16,7 +17,10 @@ const Hero = () => {
           className="h-[80vh] w-[50vw] top-10 left-full"
           fill="purple"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+        <Spotlight
+          className="left-80 top-28 h-[80vh] w-[50vw]"
+          fill="blue"
+        />
       </div>
       <div
         className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
@@ -30,9 +34,20 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest underline-offset-1 underline text-4xl text-center text-blue-100 max-w-80">
-            TectrixMC
-          </p>
+          <div className="mb-36">
+            <p className="lg:text-6xl uppercase tracking-widest underline-offset-1 text-4xl text-center text-blue-100">
+              TectrixMC
+            </p>
+            <p className="mt-1 lg:mt-4 tracking-widest underline-offset-1 text-xl lg:text-2xl text-center text-blue-100">
+              By{" "}
+              <Link
+                className="underline text-blue-400 font-bold"
+                href="https://tectrix.dev"
+              >
+                Tectrix
+              </Link>
+            </p>
+          </div>
           <TextGenerateEffect
             words="Explore new worlds! Experience new events! Have fun!"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
