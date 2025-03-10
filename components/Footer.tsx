@@ -21,7 +21,7 @@ const Demo = () => {
         width="full"
         endElement={<ClipboardIconButton me="-2" />}
       >
-        <div className="pl-4 flex flex-row items-center justify-center">
+        <div className="pl-3 flex flex-row items-center justify-center">
           <p>IP:</p>
           <ClipboardInput />
         </div>
