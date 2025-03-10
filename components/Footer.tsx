@@ -9,7 +9,7 @@ import {
 import { InputGroup } from "@/components/ui/input-group";
 import { ChakraProvider } from "@chakra-ui/react";
 
-const Demo = () => {
+const Copy = () => {
   return (
     <ClipboardRoot
       maxW="300px"
@@ -17,7 +17,7 @@ const Demo = () => {
       className="text-center mx-auto my-5"
     >
       <InputGroup
-        className="text-center bg-black rounded-lg border-[#71717a] border-2 p-2"
+        className="text-center bg-black rounded-lg border-white border-2 p-2"
         width="full"
         endElement={<ClipboardIconButton me="-2" />}
       >
