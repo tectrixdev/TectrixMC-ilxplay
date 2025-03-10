@@ -1,5 +1,13 @@
 import { FaDiscord } from "react-icons/fa";
 import MagicButton from "./MagicButton";
+import {
+  ClipboardIconButton,
+  ClipboardInput,
+  ClipboardLabel,
+  ClipboardRoot,
+} from "@/components/ui/clipboard";
+import { InputGroup } from "@/components/ui/input-group";
+import { ChakraProvider } from "@chakra-ui/react";
 
 const Footer = () => {
   const discordInviteLink = "https://discord.com/invite/XkWmXWTcwD";
@@ -36,6 +44,20 @@ const Footer = () => {
             position="right"
           />
         </a>
+        <ChakraProvider>
+          <ClipboardRoot
+            maxW="300px"
+            value="play.tectrix.dev"
+          >
+            <ClipboardLabel>IP:</ClipboardLabel>
+            <InputGroup
+              width="full"
+              endElement={<ClipboardIconButton me="-2" />}
+            >
+              <ClipboardInput />
+            </InputGroup>
+          </ClipboardRoot>
+        </ChakraProvider>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
