@@ -33,7 +33,7 @@ export default function RootLayout({
       <head>
         <meta
           property="og:url"
-          content="https://tectrixdev.github.io/TectrixWebsite/"
+          content="https://minecraft.tectrix.dev"
         />
         <meta
           property="og:type"
@@ -61,7 +61,7 @@ export default function RootLayout({
         />
         <meta
           property="twitter:url"
-          content="https://tectrixdev.github.io/TectrixWebsite/"
+          content="https://minecraft.tectrix.dev"
         />
         <meta
           name="twitter:title"
