@@ -14,7 +14,7 @@ const Copy = () => {
     <ClipboardRoot
       maxW="300px"
       value="play.tectrix.dev"
-      className="text-center mx-auto mb-5"
+      className="text-center mx-auto mb-5 lg:mb-0"
     >
       <InputGroup
         className="text-center bg-black rounded-lg border p-2"
