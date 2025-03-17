@@ -34,14 +34,14 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <div className="mb-36">
-            <p className="lg:text-6xl uppercase tracking-widest underline-offset-1 text-4xl text-center text-blue-100">
+          <div>
+            <h1 className="underline lg:text-6xl uppercase tracking-widest underline-offset-2 text-4xl text-center text-blue-100">
               TectrixMC
-            </p>
-            <p className="mt-1 lg:mt-4 tracking-widest underline-offset-1 text-xl lg:text-2xl text-center text-blue-100">
+            </h1>
+            <p className="hidden mt-1 lg:mt-4 tracking-widest underline-offset-1 text-xl lg:text-2xl text-center text-blue-100">
               By{" "}
               <Link
-                className="underline text-blue-400 font-bold"
+                className="hidden underline text-blue-400 font-bold"
                 href="https://tectrix.dev"
               >
                 Tectrix

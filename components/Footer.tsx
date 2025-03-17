@@ -14,7 +14,7 @@ const Copy = () => {
     <ClipboardRoot
       maxW="300px"
       value="play.tectrix.dev"
-      className="text-center mx-auto mb-5 md:-mb-5"
+      className="text-center mx-auto mb-5"
     >
       <InputGroup
         className="text-center bg-black rounded-lg border p-2"
@@ -22,7 +22,7 @@ const Copy = () => {
         endElement={<ClipboardIconButton me="-2" />}
       >
         <div className="pl-1 flex flex-row items-center justify-center">
-          <p>IP:</p>
+          <p className="select-none">IP:</p>
           <ClipboardInput />
         </div>
       </InputGroup>
