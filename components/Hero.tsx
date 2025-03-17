@@ -34,20 +34,9 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <div>
-            <h1 className="underline lg:text-6xl uppercase tracking-widest underline-offset-2 text-4xl text-center text-blue-100">
-              TectrixMC
-            </h1>
-            <p className="hidden mt-1 lg:mt-4 tracking-widest underline-offset-1 text-xl lg:text-2xl text-center text-blue-100">
-              By{" "}
-              <Link
-                className="hidden underline text-blue-400 font-bold"
-                href="https://tectrix.dev"
-              >
-                Tectrix
-              </Link>
-            </p>
-          </div>
+          <h1 className="uppercase tracking-widest underline-offset-1 underline text-4xl text-center text-blue-100 max-w-80">
+            TectrixMC
+          </h1>
           <TextGenerateEffect
             words="Explore new worlds! Experience new events! Have fun!"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
